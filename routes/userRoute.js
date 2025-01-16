@@ -9,7 +9,7 @@ import dotenv from "dotenv";
 
 const router = express.Router();
 dotenv.config();
-// Route for User signup
+// Route for User  signup
 router.post("/signup", async (req, res) => {
   try {
     const { username, email, password } = req.body;
